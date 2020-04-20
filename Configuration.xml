@@ -1,0 +1,18 @@
+<Configuration ID="1d8e467e-c8b3-47d6-bdc3-bf1d377d94d1">
+  <Add OfficeClientEdition="64" Channel="Monthly">
+    <Product ID="O365BusinessRetail">
+      <Language ID="MatchOS" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="PinIconsToTaskbar" Value="TRUE" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <Display Level="None" AcceptEULA="TRUE" />
+</Configuration>
